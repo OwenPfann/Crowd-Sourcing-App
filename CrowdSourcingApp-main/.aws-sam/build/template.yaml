@@ -1,0 +1,410 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: 'Crowd Source App
+
+  Sample SAM Template for Crowd Source App
+
+  '
+Globals:
+  Function:
+    Timeout: 5
+  Api:
+    Cors:
+      AllowMethods: '''GET,POST,OPTIONS'''
+      AllowHeaders: '''content-type'''
+      AllowOrigin: '''*'''
+Resources:
+  CreateProject:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: CreateProject
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Environment:
+        Variables:
+          databaseName: lambdadb
+          databaseUser: admin
+          thirdOne: third
+          RDS_HOSTNAME: this.is.the.value
+      Events:
+        CreateProject:
+          Type: Api
+          Properties:
+            Path: /CreateProject
+            Method: post
+    Metadata:
+      SamResourceId: CreateProject
+  CreatePledge:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: CreatePledge
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Environment:
+        Variables:
+          databaseName: lambdadb
+          databaseUser: admin
+          thirdOne: third
+          RDS_HOSTNAME: this.is.the.value
+      Events:
+        CreatePledge:
+          Type: Api
+          Properties:
+            Path: /CreatePledge
+            Method: post
+    Metadata:
+      SamResourceId: CreatePledge
+  ListProjectAdmin:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ListProjectAdmin
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Environment:
+        Variables:
+          databaseName: lambdadb
+          databaseUser: admin
+          thirdOne: third
+          RDS_HOSTNAME: this.is.the.value
+      Events:
+        ListProjectAdmin:
+          Type: Api
+          Properties:
+            Path: /ListProjectAdmin
+            Method: post
+    Metadata:
+      SamResourceId: ListProjectAdmin
+  ListProjectDesigner:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ListProjectDesigner
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Environment:
+        Variables:
+          databaseName: lambdadb
+          databaseUser: admin
+          thirdOne: third
+          RDS_HOSTNAME: this.is.the.value
+      Events:
+        ListProjectDesigner:
+          Type: Api
+          Properties:
+            Path: /ListProjectDesigner
+            Method: post
+    Metadata:
+      SamResourceId: ListProjectDesigner
+  RegisterDesigner:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: RegisterDesigner
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Environment:
+        Variables:
+          databaseName: lambdadb
+          databaseUser: admin
+          thirdOne: third
+          RDS_HOSTNAME: this.is.the.value
+      Events:
+        RegisterDesigner:
+          Type: Api
+          Properties:
+            Path: /RegisterDesigner
+            Method: post
+    Metadata:
+      SamResourceId: RegisterDesigner
+  ViewProject:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ViewProject
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Environment:
+        Variables:
+          databaseName: lambdadb
+          databaseUser: admin
+          thirdOne: third
+          RDS_HOSTNAME: this.is.the.value
+      Events:
+        ViewProject:
+          Type: Api
+          Properties:
+            Path: /ViewProject
+            Method: post
+    Metadata:
+      SamResourceId: ViewProject
+  Login:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: Login
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Environment:
+        Variables:
+          databaseName: lambdadb
+          databaseUser: admin
+          thirdOne: third
+          RDS_HOSTNAME: this.is.the.value
+      Events:
+        Login:
+          Type: Api
+          Properties:
+            Path: /Login
+            Method: post
+    Metadata:
+      SamResourceId: Login
+  Adder:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: Adder
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        Adder:
+          Type: Api
+          Properties:
+            Path: /adder
+            Method: post
+    Metadata:
+      SamResourceId: Adder
+  Equalizer:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: Equalizer
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        Adder:
+          Type: Api
+          Properties:
+            Path: /equal
+            Method: post
+    Metadata:
+      SamResourceId: Equalizer
+  Creator:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: Creator
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        Adder:
+          Type: Api
+          Properties:
+            Path: /create
+            Method: post
+    Metadata:
+      SamResourceId: Creator
+  DeletePledge:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: DeletePledge
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        DeletePledge:
+          Type: Api
+          Properties:
+            Path: /deletePledge
+            Method: post
+    Metadata:
+      SamResourceId: DeletePledge
+  DeleteProject:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: DeleteProject
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        DeleteProject:
+          Type: Api
+          Properties:
+            Path: /deleteProject
+            Method: post
+    Metadata:
+      SamResourceId: DeleteProject
+  RegisterSupporter:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: RegisterSupporter
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        RegisterSupporter:
+          Type: Api
+          Properties:
+            Path: /registerSupporter
+            Method: post
+    Metadata:
+      SamResourceId: RegisterSupporter
+  ViewPledge:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ViewPledge
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        ViewPledge:
+          Type: Api
+          Properties:
+            Path: /viewPledge
+            Method: post
+    Metadata:
+      SamResourceId: ViewPledge
+  ClaimPledge:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ClaimPledge
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        ClaimPledge:
+          Type: Api
+          Properties:
+            Path: /claimPledge
+            Method: post
+    Metadata:
+      SamResourceId: ClaimPledge
+  SearchProjectGenre:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: SearchProjectGenre
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        SearchProjectGenre:
+          Type: Api
+          Properties:
+            Path: /searchProjectGenre
+            Method: post
+    Metadata:
+      SamResourceId: SearchProjectGenre
+  LaunchProject:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: LaunchProject
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        LaunchProject:
+          Type: Api
+          Properties:
+            Path: /launchProject
+            Method: post
+    Metadata:
+      SamResourceId: LaunchProject
+  ReapProjects:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ReapProjects
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        ReapProjects:
+          Type: Api
+          Properties:
+            Path: /reapProjects
+            Method: post
+    Metadata:
+      SamResourceId: ReapProjects
+  AddFunds:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: AddFunds
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        AddFunds:
+          Type: Api
+          Properties:
+            Path: /addFunds
+            Method: post
+    Metadata:
+      SamResourceId: AddFunds
+  DirectSupport:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: DirectSupport
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        DirectSupport:
+          Type: Api
+          Properties:
+            Path: /directSupport
+            Method: post
+    Metadata:
+      SamResourceId: DirectSupport
+  ReviewSupporterActivity:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ReviewSupporterActivity
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        ReviewSupporterActivity:
+          Type: Api
+          Properties:
+            Path: /reviewSupporterActivity
+            Method: post
+    Metadata:
+      SamResourceId: ReviewSupporterActivity
+  ReviewProjectActivity:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ReviewProjectActivity
+      Handler: app.lambdaHandler
+      Runtime: nodejs14.x
+      Architectures:
+      - x86_64
+      Events:
+        ReviewProjectActivity:
+          Type: Api
+          Properties:
+            Path: /reviewProjectActivity
+            Method: post
+    Metadata:
+      SamResourceId: ReviewProjectActivity

@@ -1,0 +1,416 @@
+commit e89251c7c929f5a28ab733b93bef974876407477
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Fri Dec 16 21:19:17 2022 +0000
+
+    updated fixes for reviewSupporter and reviewProject AND a working reap projects only for sucessful projects
+
+commit 70c52f3777e27ea266708a06f3b2d0da2eb292ba
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Fri Dec 16 15:40:25 2022 +0000
+
+    working project legend for review supporter activity
+
+commit 3e63c7a1c9bc5033b2a7acb9b066cf41697001f2
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Thu Dec 15 21:30:01 2022 +0000
+
+    updated the Review supporter activity, works with claimed pledges but not names for direct support
+
+commit 3c59805bff4542ef2cbaa931d5db8ffb92ec9f2a
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Thu Dec 15 01:07:46 2022 +0000
+
+    working review supporter activity working and tested on back end
+
+commit d3efe05075c4ac706a298f789045e81418ed6b73
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Wed Dec 14 23:43:26 2022 +0000
+
+    working and tested review Project Activity
+
+commit 888324d07e197fa2f26b57f2cef229b8f7628f95
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Wed Dec 14 22:19:16 2022 +0000
+
+    adding review Project Activity
+
+commit 6fce131f85994ab355b607f53f29c767b91859c0
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Tue Dec 13 21:53:16 2022 +0000
+
+    added the number of pledges currently claimed as the claimed pledge return
+
+commit 62a784ed46f350076ec5d4108389e7093bf16b32
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Tue Dec 13 21:39:28 2022 +0000
+
+    changed add funds and direct support returns
+
+commit ab97834b9e9b7a4d6a33f21e652971a45a82e002
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Tue Dec 13 19:27:30 2022 +0000
+
+    working add funds, debugged the string adding error
+
+commit 1712184f9e79ca87bd29608e16bed25047976a1e
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Tue Dec 13 18:44:50 2022 +0000
+
+    added templated logic to iteration 3 functions
+
+commit c6a6b7f93cca26ca1ce3f1ddffb11eec3881aab5
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Tue Dec 13 18:18:50 2022 +0000
+
+    adding option for unlimited number of pledges
+
+commit e08aee44a9ee9b7fddff8a0ab7cd48197deda095
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Tue Dec 13 00:14:42 2022 +0000
+
+    added changes so that the admin can delete any project
+
+commit 5346cab15015f98cead320e808b3b2c6b116ec2f
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Mon Dec 12 23:46:32 2022 +0000
+
+     updated claim pledge to update the project funding and supporter funds
+
+commit 8e636a8c62ea55419856c4f126031f0ec3214f18
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Mon Dec 12 04:42:04 2022 +0000
+
+    templates for I3
+
+commit b3e682810de7a20a2617f2ceaaccc7e6e0b88fd8
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Mon Dec 12 04:17:36 2022 +0000
+
+     last changes to delte project
+
+commit fbd5e700c3a52a69187ae446630165e89c49a779
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Mon Dec 12 04:02:13 2022 +0000
+
+    updated claimedPledges to work on the backend
+
+commit d5b077b6f61946816c33cca027dd19b21adc18ff
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Mon Dec 12 03:43:28 2022 +0000
+
+    fixed bugs in create and delete pledge
+
+commit 253e8208a4c126bc839c9ab4c22ea9d4aeb5a611
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Fri Dec 9 21:40:21 2022 +0000
+
+    working claim pledge, NOT working delete pledge. still needs further testing ti debug the logic
+
+commit d58675260889ad84693c43d1c12753c08c209229
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Fri Dec 9 20:33:52 2022 +0000
+
+    added admin delete project functionality
+
+commit 6bc524eea519e5c30ac10dcc3308b5cc34aec5d7
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Fri Dec 9 04:46:38 2022 +0000
+
+    working delete project
+
+commit 0b490a8ac7a90c5b78385f2b8c06912261cb7987
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Fri Dec 9 03:33:23 2022 +0000
+
+    finished logic for delete pledge, not tested
+
+commit dd197572a57aee495a41dfb62213e59524ee3804
+Merge: 53c84d1 4cdac1e
+Author: Hailey Anderson <35976192+HavanaHail@users.noreply.github.com>
+Date:   Thu Dec 8 20:31:42 2022 -0500
+
+    Merge branch 'main' of https://github.com/laurynW/CrowdSourcingApp
+
+commit 53c84d16725f7a7f319ec85f8fccef58b034c5ee
+Author: Hailey Anderson <35976192+HavanaHail@users.noreply.github.com>
+Date:   Thu Dec 8 19:49:42 2022 -0500
+
+    made adminlist response structure similar to designerlist
+
+commit 4cdac1e96dd8c972e387e11a55dabcdbc29dab26
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Thu Dec 8 18:57:49 2022 +0000
+
+    fucntions written for delete pledge, need to form logic ic try catch
+
+commit c0f2e5906ea617a5990579e3e263a7140e06062c
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Thu Dec 8 18:49:38 2022 +0000
+
+    written function for delete project
+
+commit aeb824918211ddd0fd60d7770baf32b3d61add56
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Thu Dec 8 05:06:40 2022 +0000
+
+    Claim pledge written but not tested
+
+commit 387d1ead5284c73964560409ffc17ccc7c340c82
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Thu Dec 8 04:01:02 2022 +0000
+
+    fixing errors in supporter, debugging list project designer
+
+commit 4d1850df5b8973f92f5d26164b97a122ae9a5211
+Merge: 4d80ebb 3768aff
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Thu Dec 8 01:55:24 2022 +0000
+
+    Working and tested Search by Genre AND fixed templates for Deletes, claimpledge, search by genre and Register supporter
+
+commit 4d80ebbc6effcf8884f94bf9546b4569ce07d8d3
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Thu Dec 8 01:53:10 2022 +0000
+
+    Working and tested Search by Genre AND fixed templates for Deletes, claimpledge, search by genre and Register supporter
+
+commit 3768aff905cb2e3871410250f71f5605cc59fd2d
+Author: Hailey Anderson <35976192+HavanaHail@users.noreply.github.com>
+Date:   Wed Dec 7 19:31:13 2022 -0500
+
+    Update makePledge.json
+
+commit 8dc885558930c01d273c04d145bb8da8f27e74cc
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Wed Dec 7 21:35:55 2022 +0000
+
+    working view pledge with tests used to confirm
+
+commit 5699a5cd8e53f58f493397acb7ebd7669d26d530
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Wed Dec 7 19:52:21 2022 +0000
+
+    working register supporter with tests
+
+commit 8208804083a1c606dc491f8fe74584fe415918c1
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Wed Dec 7 19:38:27 2022 +0000
+
+    updating build file for create pledge
+
+commit 5c8eba794386abdeafc0cc278132a5419a2b0b02
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Wed Dec 7 19:37:36 2022 +0000
+
+    working launch with test cases used
+
+commit d498ca49f4b767bbc527240912d9f5449473d235
+Merge: 84f13aa 7cd68af
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Tue Dec 6 02:07:08 2022 +0000
+
+    adding iteration 2
+
+commit 84f13aa3c80e51534f75242b9fcab739f417a58c
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Tue Dec 6 02:02:46 2022 +0000
+
+    adding iteration 2 files with updated template file
+
+commit 7cd68afe6d4811ebc0910a49f581c6e97e0b6576
+Merge: 5caca7a 8a99cf7
+Author: HavanaHail <haileya4@nycischool.org>
+Date:   Mon Dec 5 19:19:04 2022 -0500
+
+    Merge branch 'main' of https://github.com/laurynW/CrowdSourcingApp
+
+commit 5caca7a5c718d81824f35a52ec9764d0e109293d
+Author: HavanaHail <haileya4@nycischool.org>
+Date:   Mon Dec 5 19:10:33 2022 -0500
+
+    yes
+
+commit 8a99cf7b371ab10c9968720d69ba9520ca821da6
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Mon Dec 5 22:08:29 2022 +0000
+
+    made lambda functions for iteration 2
+
+commit e8ba62085fd781ff07af73509a2a770eea2cdeed
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Mon Dec 5 19:46:57 2022 +0000
+
+    corrected tests for failure of create project
+
+commit 73fba7b343d4a3bb01f7b4647b6b61130dff681b
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Mon Dec 5 19:25:42 2022 +0000
+
+    working locally for create project, possible issue with designer ID showing up as zero when set other wise
+
+commit 915248be7a11c69319706b8d770518a5364af651
+Merge: 9e6566b 5b7e7b9
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Mon Dec 5 18:38:52 2022 +0000
+
+    merging
+
+commit 9e6566b7f878df35aa9b540d114b85027e6817ac
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Mon Dec 5 18:36:47 2022 +0000
+
+    tests for creating a project, working lambd for login
+
+commit 5b7e7b970914b9a22a748b3df67c1b90b482039b
+Author: HavanaHail <haileya4@nycischool.org>
+Date:   Sun Dec 4 22:22:21 2022 -0500
+
+    testingLambdafunction
+
+commit 7eab0b285e86d52ba0d32d0f692c612cb9e76810
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Fri Dec 2 08:07:55 2022 +0000
+
+     working register deisgner on the lambda side that has been deployed
+
+commit 2a7d9445d63ccfa6ad8eb1bb184d06168385b450
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Fri Dec 2 07:17:16 2022 +0000
+
+    end of night commit
+
+commit e426ea7a603f24db35bfd97a25a9182bd25d9e70
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Fri Dec 2 06:09:56 2022 +0000
+
+    updating the Login lambda to return what front end needs
+
+commit 665ecbb15ac279385a74d0a0cbc1d54d99815392
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Fri Dec 2 06:00:09 2022 +0000
+
+    adding working lambda functions for ViewProject, Login, ListAdmin, LisDesigner
+
+commit 25d328503c507e88a714cb7e931058416a00cac6
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Fri Dec 2 01:25:42 2022 +0000
+
+    adding last of updates to lambda functions
+
+commit aab2496da33110b17059700e1f2a4ccb88b8c09e
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Fri Dec 2 01:22:22 2022 +0000
+
+    updating lambda function
+
+commit 7d67bc4f3dfad7c79682d13ed93c2b7f69cec224
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Fri Dec 2 01:19:57 2022 +0000
+
+    adding calculator files
+
+commit 63112da42b9002de36e5991a3a0bfdf18dbfc59a
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Fri Dec 2 01:14:52 2022 +0000
+
+    lambda functions for calculator and working register desinger, half working show list
+
+commit ca73cfadd33e8d238fb4a73361af7cd55235a138
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Thu Dec 1 20:25:25 2022 +0000
+
+    idk if this has been done but lamda and stuff
+
+commit e52fcb7bf4bd36bd33392581566b56dfefa0c36b
+Author: hailey anderson <hhanderson@wpi.edu>
+Date:   Thu Dec 1 06:24:58 2022 +0000
+
+    gitty
+
+commit 8c3dbdf0bfde6df8ac9d0a8138b5df8400ed9cdd
+Author: Lauryn Whiteside <lwhiteside@wpi.edu>
+Date:   Thu Dec 1 05:11:03 2022 +0000
+
+    yes lambda for pledge create and both listprojects
+    
+    what i said
+
+commit cc61345d2a1167baba3b4cd43cdc2c1c41db8dd8
+Author: Lauryn Whiteside <lwhiteside@wpi.edu>
+Date:   Thu Dec 1 03:53:28 2022 +0000
+
+    first draft lambda functions to debug fro CreateProject ListProject Login RegDesigner
+
+commit 94f7d0d93f45122a99ed726d88c87854333dc723
+Author: Lauryn Whiteside <lwhiteside@wpi.edu>
+Date:   Wed Nov 30 23:49:01 2022 +0000
+
+    added functionality to register designer and fixed create project handler functions
+
+commit 90b493d85614b4c09bd1d673eebe59f25a63d021
+Author: Lauryn Whiteside <lwhiteside@wpi.edu>
+Date:   Wed Nov 30 23:08:33 2022 +0000
+
+    first draft of CreateProject Lambda function
+
+commit 07f80f0e745bfb18f872bae7beeb17ba72ddf0d1
+Author: Lauryn Whiteside <lwhiteside@wpi.edu>
+Date:   Wed Nov 30 22:00:08 2022 +0000
+
+    adding the login lambda function
+
+commit 660ae2d8661e05cbdb795718a463f1cfaecdd605
+Author: Lauryn Whiteside <lwhiteside@wpi.edu>
+Date:   Wed Nov 30 21:45:52 2022 +0000
+
+    changes to template file for login lambda
+
+commit c18cee6e0ed98bf612a80ae0fef25fed83760207
+Author: Lauryn Whiteside <lwhiteside@wpi.edu>
+Date:   Wed Nov 30 21:42:51 2022 +0000
+
+    creating a login lambda function
+
+commit e28d3a91f1a10bebd69cfe066d769a28abf261a2
+Author: Lauryn Whiteside <lwhiteside@wpi.edu>
+Date:   Wed Nov 30 20:27:05 2022 +0000
+
+    adding all files for the lambda functions needeed for G2
+
+commit 9dd2184474942d3504b99cf97ff176729f9dd656
+Author: Lauryn Whiteside <lwhiteside@wpi.edu>
+Date:   Wed Nov 30 20:19:49 2022 +0000
+
+    adding base files for all lambda functions neede for G2
+
+commit 44824558c610de01e613d7b220c38c821d9001b4
+Author: Lauryn Whiteside <lwhiteside@wpi.edu>
+Date:   Wed Nov 30 18:14:42 2022 +0000
+
+    all files for first lambda function and to get the database connected
+
+commit 26db402f4e0826aebf2ffd1662899b7238cac9db
+Merge: 909e540 9624c2a
+Author: Lauryn Whiteside <lwhiteside@wpi.edu>
+Date:   Wed Nov 30 18:13:51 2022 +0000
+
+    Merge branch 'main' of https://github.com/laurynW/CrowdSourcingApp
+    merging branches
+
+commit 909e5405f62790bd70ca18b7d3731dc72eacadc9
+Author: Lauryn Whiteside <lwhiteside@wpi.edu>
+Date:   Wed Nov 30 18:06:28 2022 +0000
+
+    all files to get firstlambda function with all needed links to database and RDS
+
+commit 9624c2a433d6c4ef6622d3493de1303045c17a58
+Author: Lauryn Whiteside <lwhiteside@wpi.edu>
+Date:   Tue Nov 29 04:51:04 2022 +0000
+
+    adding working adder lambda function
+
+commit 96e0ae66fdf43d5a7869e45606d9991f126b1e2f
+Author: Lauryn Whiteside <lwhiteside@wpi.edu>
+Date:   Mon Nov 28 19:15:20 2022 +0000
+
+    adding new file to git
